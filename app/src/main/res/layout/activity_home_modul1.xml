@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlue"
+    android:padding="10dp"
+    tools:context="com.example.asus_x550z.praktikumpbb.modul1.homeModul1">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salam"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"/>
+    <Button
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        android:textSize="14dp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorAccent"/>
+
+</RelativeLayout>

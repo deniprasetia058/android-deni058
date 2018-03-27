@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PRAKTIKUM PPB</string>
+    <string name="name">Deni Rahmat Prasetia</string>
+    <string name="nrp">140411100058</string>
+    <string name="info">Info Pribadi</string>
+    <string name="hello">Hello !</string>
+    <string name="salam">Silahkan tekan tombol di bawah ini akan mendapatkan salam ramah dari Android</string>
+    <string name="nameList">List Modul Praktikum</string>
+    <string name="modul1">Modul 1 Pengenalan Likungan Android dan Struktur Data</string>
+    <string name="modul2">Modul 2 name</string>
+    <string name="modul3">Modul 3 name</string>
+    <string name="modul4">Modul 4 name</string>
+    <string name="modul5">Modul 5 name</string>
+    <string name="modul6">Modul 6 name</string>
+    <string name="modul7">Modul 7 name</string>
+    <string name="modul8">Modul 8 name</string>
+</resources>

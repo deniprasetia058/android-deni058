@@ -17,7 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".modul1.homeModul1" />
-        <activity android:name=".modul1.modul1"></activity>
+        <activity android:name=".modul1.modul1" />
+        <activity android:name=".modul2.homeModul2" />
+        <activity android:name=".modul3.homeModul3" />
+        <activity android:name=".modul3.outputModul3"></activity>
     </application>
 
 </manifest>

@@ -37,7 +37,7 @@ public class homeModul3 extends AppCompatActivity {
                 Calendar newDate = Calendar.getInstance ();
                 newDate.set ( year, month, dayOfMonth );
 
-                tanggal.setText ( dateFormatter.format ( newDate.getTime () ) );
+//                tanggal.setText ( dateFormatter.format ( newDate.getTime () ) );
             }
         }, newCalender.get ( Calendar.YEAR ), newCalender.get ( Calendar.MONTH ), newCalender.get ( Calendar.DAY_OF_MONTH ));
         datePickerDialog.show ();

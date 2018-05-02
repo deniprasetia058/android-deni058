@@ -11,10 +11,12 @@ import com.example.asus_x550z.praktikumpbb.modul1.homeModul1;
 import com.example.asus_x550z.praktikumpbb.modul2.homeModul2;
 import com.example.asus_x550z.praktikumpbb.modul3.homeModul3;
 import com.example.asus_x550z.praktikumpbb.modul4.homeModul4;
+import com.example.asus_x550z.praktikumpbb.modul5.homeModul5;
+import com.example.asus_x550z.praktikumpbb.modul6.homeModul6;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btn1,btn2,btn3,btn4;
+    Button btn1,btn2,btn3,btn4,btn5,btn6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         btn2 = (Button)findViewById(R.id.Button2);
         btn3 = (Button)findViewById(R.id.Button3);
         btn4 = (Button)findViewById(R.id.Button4);
+        btn5 = (Button)findViewById(R.id.Button5);
+        btn6 = (Button)findViewById(R.id.Button6);
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,6 +58,22 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,homeModul4.class);
                 Toast.makeText(MainActivity.this, "Contacts, Anda Sudah Ter-Load", Toast.LENGTH_SHORT).show();
+                startActivity(intent);
+            }
+        });
+
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,homeModul5.class);
+                startActivity(intent);
+            }
+        });
+
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this,homeModul6.class);
                 startActivity(intent);
             }
         });

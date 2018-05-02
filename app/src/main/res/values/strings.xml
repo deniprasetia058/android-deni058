@@ -5,17 +5,27 @@
     <string name="info">Info Pribadi</string>
     <string name="hello">Hello !</string>
     <string name="form">Input Biodata</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="one_create_new">Create New</string>
+    <string name="one_open_existing">Open Existing</string>
     <string name="salam">Silahkan tekan tombol di bawah ini akan mendapatkan salam ramah dari Android</string>
     <string name="nameList">List Modul Praktikum</string>
     <string name="modul1">Modul 1 Pengenalan Likungan Android dan Struktur Data</string>
     <string name="modul2">Modul 2 Aplikasi Android dengan Menggunakan Komponen Antarmuka, Huruf dan Warna</string>
     <string name="modul3">Modul 3 Aplikasi Android dengan Layout dan Pendengar Event</string>
     <string name="modul4">Modul 4 Aplikasi Android dengan ListView</string>
-    <string name="modul5">Modul 5 name</string>
+    <string name="modul5">Modul 5 Aplikasi Android dengan Fragment</string>
     <string name="modul6">Modul 6 name</string>
     <string name="modul7">Modul 7 name</string>
     <string name="modul8">Modul 8 name</string>
     <string name="text">Change Text</string>
     <string name="color">Change Color</string>
     <string name="size">Change Size</string>
+    <string name="one_select_board">Select a Board</string>
+    <string name="two_welcome">Welcome to Board!</string>
+    <string name="two_drawing">Name Your Drawing</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -1,14 +1,12 @@
 package com.example.asus_x550z.praktikumpbb.modul6;
 
 
-import android.app.FragmentManager;
 import android.os.Bundle;
-import android.support.v4.app.DialogFragment;
-import android.support.v4.app.Fragment;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.app.DialogFragment;
 import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -16,33 +14,32 @@ import android.widget.TextView;
 import com.example.asus_x550z.praktikumpbb.R;
 
 
-/**
- * A simple {@link Fragment} subclass.
- */
-public class myDialogFragment extends DialogFragment implements TextView.OnEditorActionListener{
-    private EditText mEditText;
+public class MyDialogFragment extends DialogFragment implements TextView.OnEditorActionListener {
 
-    public void show(FragmentManager manager, String fragment_edit_name) {
-    }
+    private EditText mEditText;
 
     public interface UserNameListener {
         void onFinishUserDialog(String user);
     }
 
-    public myDialogFragment() {
-
+    public MyDialogFragment() {
+        // Required empty public constructor
     }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate( R.layout.fragment_username, container);
+        View view = inflater.inflate( R.layout.dialog_fragment, container);
         mEditText = (EditText) view.findViewById(R.id.username);
+
+        // set this instance as callback for editor action
         mEditText.setOnEditorActionListener(this);
         mEditText.requestFocus();
         getDialog().getWindow().setSoftInputMode(
                 WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
         getDialog().setTitle("Please enter username");
+
         return view;
     }
 

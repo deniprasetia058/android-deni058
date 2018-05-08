@@ -7,8 +7,6 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.asus_x550z.praktikumpbb.R;
-import com.example.asus_x550z.praktikumpbb.modul5.DrawingActivity;
-import com.example.asus_x550z.praktikumpbb.modul5.FragmentTwo;
 
 public class homeModul5 extends AppCompatActivity {
 

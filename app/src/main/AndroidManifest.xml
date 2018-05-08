@@ -30,7 +30,7 @@
         <activity android:name=".modul3.outputModul3" />
         <activity android:name=".modul4.homeModul4" />
         <activity android:name=".modul5.homeModul5" />
-        <activity android:name=".modul5.DrawingActivity">
+        <activity android:name=".modul5.DrawingActivity" />
         <activity android:name=".modul6.homeModul6"></activity>
     </application>
 
